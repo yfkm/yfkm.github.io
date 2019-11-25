@@ -46,14 +46,15 @@
 	.side-menu {
 		position: absolute;
 		left: 100%;
+		width:0;
 		opacity: 0;
-		max-width: 100%;
-		width: 100%;
 	}
 	.side-menu.side-menu-opened {
 		position: fixed;
 		left: 0;
 		opacity: 1;
 		right:0;
+		max-width: 100%;
+		width: 100%;
 	}
 }
