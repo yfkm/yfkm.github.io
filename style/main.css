@@ -16,8 +16,10 @@ body {
 }
 .main-page-wrapper {
     padding: 10px;
+	overflow-x: hidden;
     border-radius: 3px;
 	box-sizing: border-box;
+	background-color: #fff8;
     backdrop-filter: blur(10px);
     box-shadow: 3px 3px 4px #0008;
 }
