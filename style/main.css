@@ -4,6 +4,8 @@
 body {
     font-family: arial;
     display: flex;
+	max-width: 100%;
+	width: 100%;
 	overflow-x: hidden;
     flex-direction: column;
     align-items: center;
