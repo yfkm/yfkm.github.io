@@ -2,6 +2,7 @@
 	transition: all 0.2s;
 }
 body {
+	margin:0;
     font-family: arial;
     display: flex;
 	max-width: 100%;
@@ -16,6 +17,7 @@ body {
 .main-page-wrapper {
     padding: 10px;
     border-radius: 3px;
+	box-sizing: border-box;
     backdrop-filter: blur(10px);
     box-shadow: 3px 3px 4px #0008;
 }
