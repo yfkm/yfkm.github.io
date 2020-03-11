@@ -1,0 +1,46 @@
+$colorOnHover: #ffa;
+$colorOffHover: #aaf;
+$colorOn: #ff3;
+$colorOff: #6dd;
+$colorHover: #ddd;
+$w: 30px;
+$s: 5px;
+$b: 15px;
+$h: 10px;
+
+.Components-Button{
+	transition: 0.2s;
+	cursor: pointer;
+	display: flex;
+	box-sizing: border-box;
+	height: 30px;
+	border-radius: 8px;
+	border-left: 3px solid $colorOn;
+	border-right: 3px solid $colorOff;
+	max-width: $w;
+	width: $w;
+}
+.Components-Button-on:hover {
+	border-left: $b solid $colorOnHover;
+	background: $colorOn;
+	border-right: $s solid $colorOffHover;
+}
+.Components-Button-off:hover {
+	border-left: $s solid $colorOnHover;
+	background: $colorOff;
+	border-right: $b solid $colorOffHover;
+}
+.Components-Button-on {
+	border-left: $b solid $colorOn;
+	background: $colorOn;
+	border-right: $s solid $colorOff;
+}
+.Components-Button-off {
+	border-left: $s solid $colorOn;
+	background: $colorOff;
+	border-right: $b solid $colorOff;
+}
+.Components-Button:hover{
+	border-left: $h solid $colorOnHover;
+	border-right: $h solid $colorOffHover;
+}
